@@ -40,7 +40,7 @@ const Navbar = () => {
   return (
     <nav className="w-full fixed z-40">
       <div className={`px-4 md:px-16 py-6 flex flex-row items-center transition duration-500 ${showBackground ? 'bg-blockbuster-300 bg-opacity-90' : ''}`}>
-        <img src="/images/logo.png" className="h-20 lg:h-32" alt="Logo" />
+        <img src="/images/logo.png" className="h-12 lg:h-32" alt="Logo" />
         <div className="flex-row ml-8 gap-7 hidden lg:flex">
           <NavbarItem label="Home" active />
           <NavbarItem label="Series" />
